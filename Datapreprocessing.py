@@ -34,6 +34,3 @@ df['Light Conditions Encoded'] = df['Light Conditions'].map(light_conditions_map
 
 # Display value counts for categorical features
 print(df['Light Conditions'].value_counts())
-
-
-
